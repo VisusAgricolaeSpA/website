@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visus Agricolae</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b63fa05ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Visus Agricolae</p>
+            <h1>Servicios Agricolas <br><span>Simples</span> y <span>Efectivos</span></h1>
+        </div>
+    </div>
+</div>
+<!--ABOUT-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/User2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Sobre Nosotros</h1>
+                <p class="p-1">Visus Agricolae nace como una empresa del rubro agrícola enfocada principalmente a dar soluciones a problemáticas coyunturales en las labores campesinas. Nuestra visión y misión se basa en el principio de dar cabida a procesos amigables con el medioambiente, es decir, procurar y promover el uso correcto de los recursos naturales (agua, energías limpias, suelos, nutrientes naturales, etc.) y en conjunción a aquello, mejorar los procesos agropecuarios. Para este fin, nos apoyamos de las habilidades y conocimientos que entrega la ingeniería y el análisis de datos.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('estudios')">Estudios</p>
+                    <p class="tab-links" onclick="opentab('soluciones y acciones')">Soluciones y Acciones</p>
+                    <p class="tab-links" onclick="opentab('alianzas e incentivos')">Alianzas e Incentivos</p>
+                </div>
+                <div class="tab-contents active-tab" id="estudios">
+                    <ul>
+                        <li><span>Obtención de Información</span><br><br>Levantamiento topográfico, fotografía aéreas del predio y los cultivos, delimitación de los suelos y sus usos, tipos de cultivos, cría de animales o no, perfil de la familia perteneciente a la AFC, finalidad de los cultivos, infraestructura agrícola y sus usos, otros.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="soluciones y acciones">
+                    <ul>
+                        <li><span>Disponibilidad de Servicios Asociados</span><br><br>Atrapamalezas inteligente, diseño de predios agrícolas, diseño y construcción de invernaderos, potreros, bodegas, aprovechamiento de aguas grises domiciliarias para jardines y cultivos, capacitaciones y certificaciones en uso de humus de lombriz, uso eficiente del recurso hídrico, prioridad a los cultivos rotativos, uso de energías renovables.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="alianzas e incentivos">
+                    <ul>
+                        <li><span>Trabajando Por y Para la Comunidad Agrícola</span><br><br>Bonos captación de CO2, alianzas entre proveedores y consumidores y/o intermediarios.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--SERVICIOS-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Servicios</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Data Analytics</h2>
+                <p>Recolección de información, tablas dinámicas, Dashboard, etc.</p>
+                <a href="#" class="btn">Ver más</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person-digging"></i>
+                <h2>Trabajo en terreno</h2>
+                <p>Apoyo a los clientes en las labores agropecuarias.</p>
+                <a href="#" class="btn">Ver más</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Tecnología para el campo y el hogar</h2>
+                <p>Adaptamos tecnologías de automatización.</p>
+                <a href="#" class="btn">Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--PORTAFOLIO-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portafolio de Trabajo</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/My project-1.png">
+                <div class="layer">
+                    <h3>Proyecto de Recuperación, Humedal El Yali</h3>
+                    <p>Previo a la creación de la empresa, Gonzalo Bustillos (CEO) participó como profesional de la Facultad de Ingeniería de la Universidad de Playa Ancha en el proyecto de recuperación del humedal El Yali, Región de Valparaíso, obteniendo satisfactorios resultados.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/My project-2.png">
+                <div class="layer">
+                    <h3>Cultivos de Cerezos</h3>
+                    <p>Parte de los servicios de Visus Agricolae es levantar proyectos en torno a labores agricolas. Para el año 2021, la empresa prestó servicios de topografía, plantación, diseño de riego y proyecciones económicas para un cultivo de cerezos en la localidad de Pichingal, Región del Maule.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/My project-3.png">
+                <div class="layer">
+                    <h3>Explotación Bosque No Maderable en Chépica</h3>
+                    <p>Uno de los proyectos más recientes para la empresa, ha sido la investigación entorno al potencial de la explotación de bosque no maderable, es decir, obtener productos de bosques con un bajo impacto en el ecosistema. En el caso del predio ubicado en la localidad de Chépica, Región del Libertador Bernando O'Higgins, se ha estudiado los posibles beneficios de la estracción de hojas de boldos para diferentes propósitos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--CONTACTO-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contacto</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> visusagricolae@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100080254971232"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Correo" required>
+                    <textarea name="Message" rows="6" placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Visus Agricolae. Hecho con <i class="fa-solid fa-tree"></i> por Departamento de Investigación y Desarrollo.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOn-4xRjnMvmkhEp3WrdNM0aWBj_NvqVjL7RE-HRbUNzlwD0QsluFLbiKIzIHldn3l/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
